@@ -1,0 +1,167 @@
+/* 头部开始 */
+header{
+	width: 100%;
+	height: .47rem;
+	/* background-color: red; */
+	border-bottom: 1px solid #efefef;
+}
+header span{
+    width: .4rem;
+    height: 100%;
+    /* background-color: #fff; */
+    float: left;
+    color: #666;
+}
+header span:nth-child(1) {
+	background: url("../img/login/head1.png") no-repeat;
+	background-size: .14rem .17rem ;
+	margin-top: .15rem;
+	margin-left: .1rem;
+
+}
+header span:nth-child(2){
+	width: 1.1rem;
+	height: 100%;
+    font-size: .20rem;
+    display: block;
+    margin-left:.87rem;
+    line-height: .47rem;
+}
+header span:nth-child(3){
+    font-size: .18rem;
+    margin-left: .77rem;
+    line-height: .47rem;
+}
+/* 头部结束 */
+/* banner开始 */
+#banner{
+	width: 100%;
+	height: 1.46rem;
+	padding-top: .35rem;
+}
+.imgBox{
+	width: 1.05rem;
+	height: 1.05rem;
+	margin: 0 auto;
+}
+/* banner结束 */
+/* 账号登录开始 */
+#account{
+	width: 100%;
+	height: .51rem;
+	padding-top: .3rem;
+}
+.cen{
+	width: 3.45rem;
+	height: .21rem;
+	margin-left: .15rem;
+	display: block;
+}
+.cen span:nth-child(1){
+	display: block;
+	width: 1.19rem;
+	height: .01rem;
+	background-color: #666;
+	margin-top: .1rem;
+	float: left;
+	margin-right: .05rem;
+}
+.cen span:nth-child(2){
+	font-size: .12rem;
+	display: block;
+	float: left;
+}
+.cen span:nth-child(3){
+	display: block;
+	width: 1.19rem;
+	height: .01rem;
+	background-color: #666;
+	margin-top: .1rem;
+	float: left;
+	margin-left: .05rem;
+	line-height: .21rem;
+}
+.bottom{
+	width: 3.45rem;
+	height: 2rem;
+	margin: 0 auto;
+	margin-top: .15rem;
+}
+input{
+     width: 3.45rem;
+     height: .45rem;
+     background-color: #f2f2f2;
+     border: none;
+     border-radius: .03rem;
+     display: block;
+     margin-bottom: .1rem;
+     font-size: .16rem;
+     color: #444;
+     line-height: .22rem;
+     padding-left: .15rem;
+
+}
+input::input-placeholder{
+     color: #aeaeae;
+}
+input::-webkit-input-placeholder{
+	 color: #aeaeae;
+}
+input:-moz-placeholder{
+	 color: #aeaeae;
+}
+input::-moz-placeholder{
+	 color: #aeaeae;
+}
+input:-ms-placeholder{
+	 color: #aeaeae;
+}
+input:nth-child(3){
+	 margin-top: .18rem;
+	 background: #ff5777;
+	 text-align: center;
+	 
+}
+input:nth-child(3)::input-placeholder{
+     color: #fff;
+}
+input:nth-child(3)::-webkit-input-placeholder{
+	 color: #fff;
+}
+input:nth-child(3):-moz-placeholder{
+	 color: #fff;
+}
+input:nth-child(3)::-moz-placeholder{
+	 color: #fff;
+}
+input:nth-child(3):-ms-placeholder{
+	 color: #fff;
+}
+.bottom-box{
+	 width: .6rem;
+	 height: .12rem;
+	 background-color: #fff;
+	 margin-top: .1rem;
+	 float: right;
+	 font-size: .12rem;
+	 color: #494949;
+}
+.dneglu{
+	 width: 3.45rem;
+     height: .45rem;
+     background-color: #f2f2f2;
+     border: none;
+     border-radius: .03rem;
+	 margin-top: .18rem;
+	 background: #ff5777;
+	 padding-top:.12rem;
+	 
+}
+.dneglu a{
+	display: block;
+	color: #fff;
+	font-size: .16rem;
+    padding-left: .15rem;
+    text-align: center;
+}
+/* 账号登录结束 */

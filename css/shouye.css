@@ -1,0 +1,295 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408608 */
+  src: url('http://at.alicdn.com/t/font_408608_nw9u77oc2q6nipb9.eot');
+  src: url('http://at.alicdn.com/t/font_408608_nw9u77oc2q6nipb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408608_nw9u77oc2q6nipb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408608_nw9u77oc2q6nipb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408608_nw9u77oc2q6nipb9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.iconfont1{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: .45rem;
+	position: fixed;
+	background-color: #fff;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	border-bottom: .01rem solid #f4f4f4;
+}
+.logo{
+	width: .29rem;
+	height: .45rem;
+	margin: 0 .15rem;
+	float: left;
+}
+ img{
+	float: left;
+}
+.serach{
+	width: 2.65rem;
+	height: .45rem;
+	background-color: #fff;
+	float: left;
+}
+.serach input{
+    width: 2.65rem;
+	height: .28rem;
+	border-radius: .05rem;
+	margin-top: .08rem;
+	margin-bottom: .08rem;
+	background:url('../img/shouye/serach.png')
+	no-repeat;
+	font-size: .2rem;
+	background-size: auto .15rem;
+	background-position: .1rem .07rem;
+	padding: .15rem .15rem .15rem .33rem;
+	background-color: #f4f4f4;
+	border:none;
+	display: block;
+	float: left;
+}
+
+input::input-placeholder{
+     color:rgba(153,153,153,1);
+}
+
+input::-webkit-input-placeholder{
+	color:rgba(153,153,153,1);
+}
+input:-moz-placeholder{
+	color:rgba(153,153,153,1);
+}
+input::-moz-placeholder{
+	color:rgba(153,153,153,1);
+}
+input:-ms-input-placeholder{
+	color:rgba(153,153,153,1);
+}
+
+.news{
+	width: .18rem;
+	height: .16rem;
+	float: left;
+	margin-top: .15rem;
+	margin-left: .17rem;
+}
+/* 头部结束 */
+/* 内容开始 */
+section{
+	position: absolute;
+	left: 0;
+	top: .45rem;
+	right: 0;
+	bottom: .45rem;
+	background-color: #fff;
+}
+.imgBox{
+	 width: 100%;
+	 height: 1.95rem;
+/* 	 background-color: yellow; */
+	 position: relative;
+	 left: 0;
+	 top: 0;
+}
+.circle{
+	width: .6rem;
+	height: .06rem;
+	position: absolute;
+	left: .1rem;
+	bottom: .16rem;
+}
+.circle1{
+	width: .06rem;
+	height: .06rem;
+	background-color:#000;
+	border-radius: 50%;
+	margin-right: 10px;
+	float: left;
+}
+
+.circle2{
+	margin-right: 0;
+	background-color: #f84994;
+}
+
+.box2{
+	width: 100%;
+	height: 1.29rem;
+	padding: 0 .06rem;
+	padding-top: .1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bBox{
+	width: .8rem;
+	height: .8rem;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.bBox img{
+    border-radius: 50%;
+    border: none;
+}
+.bBox h5{
+	font-size: .14rem;
+	color: #333;
+	text-align: center;
+	font-weight: normal;
+}
+.box3{
+	width: 100%;
+	height: .1rem;
+	background-color: #fff;
+}
+.box4{
+	width: 100%;
+	height: 5.99rem;
+	padding-left: .1rem;
+}
+.bBox4{
+	width: 100%;
+	height: 5.54rem;
+}
+.wenzi{
+	width: 3.65rem;
+	height: .3rem;
+	padding-top: .1rem;
+}
+.wenzi h1{
+	font-size: .14rem;
+	float: left;
+    font-weight: normal;
+}
+.wenzi-box{
+    width: .87rem;
+    height: 100%;
+    float: right;
+}
+.wenzi h3{
+	font-size: .14rem;
+	color: #999;
+	float: left;
+	font-weight: normal;
+}
+.wenzi-box img{
+   width: .14rem;
+   height: .14rem;
+   float: left;
+   margin-top: .02rem;
+   margin-left: .02rem;
+}
+
+.box41{
+	width: 3.65rem;
+	height: 1.31rem;
+	float: right;
+	margin-top: .1rem;
+}
+.box42{
+	margin-bottom: .5rem;
+}
+.box41 .imgbox{
+	width: 1rem;
+	height: 1rem;
+	margin-left:.13rem;
+	margin-top: .16rem;
+	float: left;
+}
+
+.box41 h3{
+	font-size: .14rem;
+	color: #000;
+	float: left;
+	font-weight: normal;
+	margin-left: .1rem;
+	margin-top: .1rem;
+}
+.jiage{
+	width: 1.15rem;
+	height: .43rem;
+	float: left;
+	margin-top: .43rem;
+	margin-left: .16rem;
+}
+.jiage span{
+    font-size: .2em;
+    color: #ff6699;
+    display: block;
+    float: left;
+}
+.jiage del{
+	font-size: .12rem;
+	display: block;
+	text-decoration: line-through;
+	float: left;
+	margin-top: .06rem;
+	margin-right: .12rem;
+}
+
+.sirentuan h6{
+	font-size: .12rem;
+	color: #999;
+	font-weight: normal;
+}
+.kaituan{
+	width: .9rem;
+	height: .3rem;
+	background-color: #ff6699;
+	float: left;
+	margin-top: .54rem;
+	margin-left: .20rem;
+	border-radius: .2rem;
+}
+.kaituan h5{
+	font-size: .18rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .02rem;
+	font-weight: normal;
+}
+/* 内容结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: .45rem;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: .01rem solid #f4f4f4;
+}
+.box{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.box i{
+    font-size:.28rem; 
+    color: #666;
+    display: block;
+    margin-top: .06rem;
+    text-align: center;
+}
+.box:nth-child(1) i{
+	color: #dd5a7a;
+}
+
+/* 底部结束 */

@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408608 */
+  src: url('http://at.alicdn.com/t/font_408608_rnpx0ypfxjn61or.eot');
+  src: url('http://at.alicdn.com/t/font_408608_rnpx0ypfxjn61or.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408608_rnpx0ypfxjn61or.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408608_rnpx0ypfxjn61or.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408608_rnpx0ypfxjn61or.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    /* font-size:16px; */
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.iconfont1{
+    font-family:"iconfont" !important;
+    /* font-size:16px; */
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: .56rem;
+	position: fixed;
+	background-color: #fff;
+	left: 0;
+	top: 0;
+	padding: .16rem  .1rem;
+	z-index: 9;
+}
+header i{
+	font-size: .18rem;
+	color: #797979;
+	display: block;
+    float: left;
+    margin-top: .07rem;
+    
+}
+header h2{
+	font-size: .2rem;
+	color: #797979;
+	font-weight: normal;
+	float: left;
+	margin-left: 1.2rem;
+	
+}
+
+/* 头部结束 */
+
+/* 内容开始 */
+section{
+	position: absolute;
+	left: 0;
+	top: .56rem;
+	bottom: 0;
+	right: 0;
+    width: 100%;
+    height: 6.66rem;
+    background-color: #f4f4f4;
+}
+ul{
+	width: 100%;
+	height: 3.84rem;
+	background-color: #fff;
+	margin-top: 10px;
+}
+li{
+	width: 3.58rem;
+	height: .48rem;
+	background-color: #fff;
+	border-bottom: .01rem solid #ccc;
+    float: right;
+}
+li h2{
+	font-size: .14rem;
+	color: #333;
+	float: left;
+	font-weight: normal;
+	margin-top: .13rem;
+}
+li i{
+	font-size: .14rem;
+	color:#000;
+	float: right;
+	margin-right: .1rem;
+	margin-top: .17rem;
+
+}
+.iconfont1{
+	font-size: .32rem;
+	color:#ff5170;
+	float: right;
+	margin-top: .07rem;
+	margin-right: .22rem;
+}
+.qingchu{
+	width: 100%;
+	height: .48rem;
+	background-color: #fff;
+	border-bottom: .01rem solid #ccc;
+	border-top:.01rem solid #ccc;
+    float: right;
+    margin-top: .15rem;
+    padding-left: .17rem;
+}
+.bottomT{
+	width: 100%;
+	height: .48rem;
+	background-color: #fff;
+	border-bottom: .01rem solid #ccc;
+	border-top:.01rem solid #ccc;
+    float: right;
+    margin-top: .15rem;
+    padding-left: .17rem;
+}
+.bottomB{
+	width: 100%;
+	height: .48rem;
+	background-color: #fff;
+	border-bottom: .01rem solid #ccc;
+    float: right;
+    padding-left: .17rem;
+    margin-bottom: -.42rem;
+}
+
+input{
+	width: 2.5rem;
+	height: .4rem;
+	background-color: #fe5572;
+	border: none;
+	border-radius: .02rem;
+	margin-top: 20px;
+	margin-left: .675rem;
+    font-size: .2rem;
+    text-align: center;
+}
+
+input::input-placeholder{
+     color: #fff;
+}
+input::-webkit-input-placeholder{
+	 color: #fff;
+}
+input:-moz-placeholder{
+	 color: #fff;
+}
+input::-moz-placeholder{
+	 color: #fff;
+}
+input:-ms-placeholder{
+	 color: #fff;
+}
+
+
+/* 内容结束 */
